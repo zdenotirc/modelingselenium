@@ -70,6 +70,7 @@
     <Compile Include="SeleniumHelpers\SeleniumHelper.cs" />
     <Compile Include="SeleniumHelpers\SeleniumUtils.cs" />
     <Compile Include="SeleniumHelpers\WebDriverExtensions.cs" />
+    <Compile Include="User03Test.cs" />
     <Compile Include="Utilities\Guard.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -14,6 +14,8 @@ namespace ModelingSeleniumTests.PageObjects
 
         private IWebElement OpenButtonElement => _driver.FindElement(By.Id("button-1017-btnEl"));
 
+        // private IWebElement OpenButtonElement => _driver.FindElement(By.XPath("//span[contains(text(), 'Open')]"));
+
         public LoginApplicationPage(IWebDriver driver)
         {
             _driver = driver;
